@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFBCCE">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DO I HAVE BREAST CANCER?"
+        android:id="@+id/textView10"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="These are some (but not limited) indicators that you have breast cancer."
+        android:id="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You may have breast cancer if"
+        android:id="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-the breast is thick or has a lump "
+        android:id="@+id/textView13"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-the pores on the breast are enlarged"
+        android:id="@+id/textView14"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-the breast changes size or shape"
+        android:id="@+id/textView15"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-the breast feels dimply"
+        android:id="@+id/textView16"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-the breasts suddenly seem asymmetrical"
+        android:id="@+id/textView17"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-the nipple has turned inward"
+        android:id="@+id/textView18"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-the breast has red areas like the skin, areola, or the nipple"
+        android:id="@+id/textView19"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-there is a discharge of blood or a clear liquid"
+        android:id="@+id/textView20"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Feeling worried? Do visit your nearest healthcare provider for a proper diagnosis."
+        android:id="@+id/textView21"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="72dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/bc"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This app nor its developer didn&apos;t go to medical school."
+        android:id="@+id/textView22"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:onClick="onClickBack1"
+        android:id="@+id/button7" />
+
+</LinearLayout>

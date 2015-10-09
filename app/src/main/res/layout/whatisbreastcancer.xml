@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WHAT IS BREAST CANCER"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Breast cancer occurs when a cancer develops in the breast tissue. This disease caused nearly 1.7 million cases in 2012."
+        android:id="@+id/textView4"
+        android:layout_weight="0.01" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="There is currently no known cause of this disease although statistics show that there are possible risk factors contributing to breast cancer. Here are the following: "
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="-GENDER: Females are 100 times more likely to have breast cancer more than males."
+        android:id="@+id/textView6" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="-AGING: The risk of developing breast cancer increases as you age."
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:text="-GENETICS AND FAMILY HISTORY: One has a higher risk of developing breast cancer if the disease has affected one&apos;s blood relatives."
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="-ALCOHOL INTAKE: Alcoholics have a higher chance of developing breast cancer."
+        android:id="@+id/textView9" />
+
+    <ImageView
+        android:layout_width="13645dp"
+        android:layout_height="22dp"
+        android:src="@drawable/inflc"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:layout_weight="0.35" />
+
+    <Button
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:onClick="onClickBack2"
+        android:id="@+id/button8" />
+
+
+</LinearLayout>

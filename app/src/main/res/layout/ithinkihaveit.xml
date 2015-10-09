@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dd66">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="I THINK I HAVE IT"
+        android:id="@+id/textView23"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="First things first"
+        android:id="@+id/textView24"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Do not panic."
+        android:id="@+id/textView25"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="If your doctor has diagnosed you with breast cancer, there are a lot of options on how it can be treated. Here are some of the following:"
+        android:id="@+id/textView26"
+        android:layout_marginBottom="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SURGERY"
+        android:id="@+id/textView27"
+        android:layout_marginBottom="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One may choose between masectomy and breast conserving surgery. This is needed to remove a tumor in the breast and also to check cancer spread in the lymph nodes under the arm."
+        android:id="@+id/textView28"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="CHEMOTHERAPY"
+        android:id="@+id/textView29" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chemotherapy means the use of cancer-killing drugs that travel the bloodstream to the cancer cells in the body. This treatment may take several months including a recovery period after finishing chemotherapy."
+        android:id="@+id/textView30"
+        android:layout_marginBottom="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="RADIATION THERAPY"
+        android:id="@+id/textView31" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High energy rays are used to destroy cancer cells. This may be used especially after breast-conserving surgery in order to prevent the return or spread of cancer cells."
+        android:id="@+id/textView32" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="If you ever feel hopeless, just pray."
+        android:id="@+id/textView33"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:onClick="onClickBack3"
+        android:id="@+id/button9" />
+</LinearLayout>

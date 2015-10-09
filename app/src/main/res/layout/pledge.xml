@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="THE BREAST CANCER PLEDGE"
+        android:id="@+id/textView36"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF66FF"
+        android:text="I, (state your name), do hereby solemnly swear to spread the knowledge of breast cancer, a disease that currently affects millions of lives as I speak. I will do everything I can as a loyal and responsible Filipino to always be aware of this disease, to inform my people the dangers it can cause, and to mold a new lifestyle that contributes to good health."
+        android:id="@+id/textView34"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF66FF"
+        android:text="So help me, God."
+        android:id="@+id/textView35"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I SWEAR"
+        android:id="@+id/button11"
+        android:onClick="onClickSwear"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="onClickBack4"
+        android:id="@+id/button12"
+        android:layout_marginTop="15dp" />
+</LinearLayout>
