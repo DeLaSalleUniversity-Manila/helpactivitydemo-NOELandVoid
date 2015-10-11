@@ -1,17 +1,47 @@
 package com.example.student.breastcancer;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.*;
+import java.io.*;
 import java.util.*;
 import android.widget.*;
-import android.view.MenuItem;
+import android.view.*;
 
 public class MainActivity extends AppCompatActivity {
 
-    //INCLUDE ONCLICKITHINK
+    // FIX SPLASH SCREEN
+
     public void onClickHelp(View view){
         setContentView(R.layout.help);
+
+        TextView textView = (TextView)findViewById(R.id.textView3);
+
+        String data = readTextFile(this, R.raw.help);
+        textView.setText(data);
+    }
+    public static String readTextFile(Context ctx, int resId)
+    {
+        InputStream inputStream = ctx.getResources().openRawResource(resId);
+
+        InputStreamReader inputreader = new InputStreamReader(inputStream);
+        BufferedReader bufferedreader = new BufferedReader(inputreader);
+        String line;
+        StringBuilder stringBuilder = new StringBuilder();
+        try
+        {
+            while (( line = bufferedreader.readLine()) != null)
+            {
+                stringBuilder.append(line);
+                stringBuilder.append('\n');
+            }
+        }
+        catch (IOException e)
+        {
+            return null;
+        }
+        return stringBuilder.toString();
     }
     public void onClickPledge(View view){
         setContentView(R.layout.pledge);
@@ -24,6 +54,9 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onClickIThink (View view){
         setContentView(R.layout.ithinkihaveit);
+    }
+    public void onClickIDont (View view){
+        setContentView(R.layout.idontthhink);
     }
     public void onClickBack(View view){
         setContentView(R.layout.activity_main);
@@ -38,6 +71,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void onClickBack4(View view){
+        setContentView(R.layout.activity_main);
+    }
+    public void onClickBack5(View view){
         setContentView(R.layout.activity_main);
     }
     public void onClickSwear(View view){

@@ -74,6 +74,7 @@
         android:layout_height="wrap_content"
         android:text="I THINK I DON'T HAVE IT. HOW TO PREVENT IT?"
         android:id="@+id/button5"
+        android:onClick="onClickIDont"
         android:layout_below="@+id/button4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"

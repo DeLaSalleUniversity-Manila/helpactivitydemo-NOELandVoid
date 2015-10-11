@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00AA00"
+    android:background="#FF00FF"
     android:weightSum="1">
 
 
@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:text="message"
+        android:src="@raw/help"
         android:textColor="#FFFFFF"
         android:id="@+id/textView3"
         android:layout_weight="1.01" />
